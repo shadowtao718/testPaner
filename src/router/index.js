@@ -7,6 +7,7 @@ import Date from '@/views/date/date'
 import Rout from '@/views/rout/rout'
 import TestDemo from '@/views/test-demo/test-demo'
 import Applit from '@/views/applit/applit'
+import rate from '@/views/rate/rate'
 
 
 Vue.use(Router)
@@ -39,6 +40,10 @@ const router = new Router({
                     path: '/applit',
                     name: 'applit',
                     component: Applit
+                }, {
+                    path: '/rate',
+                    name: 'rate',
+                    component: rate
                 }
             ]
         }

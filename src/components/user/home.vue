@@ -52,7 +52,7 @@
                 <router-link to="/applit">接收的路由</router-link>
               </a-menu-item>
               <a-menu-item key="6">
-                option6
+                <router-link to="/rate">评价</router-link>
               </a-menu-item>
               <a-menu-item key="7">
                 option7
