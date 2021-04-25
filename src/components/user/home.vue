@@ -38,10 +38,10 @@
                 <router-link to="/date"> option2</router-link>
               </a-menu-item>
               <a-menu-item key="3">
-                option3
+                <router-link to="/rout">vuex练习</router-link>
               </a-menu-item>
               <a-menu-item key="4">
-                option4
+                <router-link to="/testDemo">路由练习</router-link>
               </a-menu-item>
             </a-sub-menu>
             <!-- 左边的列表首页 end -->
@@ -49,7 +49,7 @@
             <a-sub-menu key="sub2">
               <span slot="title"><a-icon type="laptop" />商品</span>
               <a-menu-item key="5">
-                option5
+                <router-link to="/applit">接收的路由</router-link>
               </a-menu-item>
               <a-menu-item key="6">
                 option6
